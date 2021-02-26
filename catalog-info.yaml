@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testjava"
+  description: "test"
+  annotations:
+    github.com/project-slug: ravi1234567891/test342
+    backstage.io/techdocs-ref: url:https://github.com/ravi1234567891/test342
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "ravikumar"
